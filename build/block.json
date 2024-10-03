@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "tanvir/piccky-gallerllary-block",
+  "version": "0.1.0",
+  "title": "Piccky Gallerllary Block",
+  "category": "text",
+  "icon": "images-alt2",
+  "description": "A image Gallery Block",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "piccky-gallerllary-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

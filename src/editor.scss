@@ -1,0 +1,29 @@
+.wp-block-tanvir-piccky-gallerllary-block {
+	.preview-mode {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		gap: 10px;
+	}
+
+	.edit-mode {
+		background-color: #eee;
+		position: relative;
+		box-sizing: border-box;
+		padding: 40px;
+	}
+	.piccy-label {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: inline-block;
+		padding: 8px;
+		background-color: #ddd;
+		font-weight: bold;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+	.piccky-gallery-inner-blocks {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}

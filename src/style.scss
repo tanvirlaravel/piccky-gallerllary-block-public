@@ -1,0 +1,21 @@
+.wp-block-tanvir-piccky-gallerllary-block {
+	.thumb {
+		border-radius: 12px;
+		border: 5px solid transparent;
+		cursor: pointer;
+		display: block;
+		filter: brightness(0.5);
+		transform: scale(1);
+		transition: 0.2 ease all;
+
+		&:hover {
+			filter: brightness(1);
+		}
+
+		&.selected {
+			border: 5px solid #006dff;
+			transform: scale(1.1);
+			filter: brightness(1);
+		}
+	}
+}
